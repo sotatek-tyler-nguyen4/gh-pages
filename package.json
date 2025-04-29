@@ -1,0 +1,22 @@
+{
+  "name": "math-utils",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "docs": "typedoc --entryPointStrategy expand --out docs src/",
+    "predeploy": "npm run build && npm run docs",
+    "deploy": "gh-pages -d docs"
+  },
+  "keywords": ["math", "typescript", "utils"],
+  "author": "",
+  "license": "ISC",
+  "description": "Thư viện các tiện ích toán học đơn giản",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "typedoc": "^0.28.3",
+    "typescript": "^5.8.3"
+  }
+}

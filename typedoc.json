@@ -1,0 +1,13 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "out": "docs",
+  "includeVersion": true,
+  "name": "Tiện ích Toán học",
+  "theme": "default",
+  "excludeInternal": true,
+  "excludePrivate": true,
+  "excludeProtected": false,
+  "categorizeByGroup": true,
+  "categoryOrder": ["Math", "*"],
+  "readme": "README.md"
+} 
