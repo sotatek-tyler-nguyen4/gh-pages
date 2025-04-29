@@ -8,6 +8,6 @@
   "excludePrivate": true,
   "excludeProtected": false,
   "categorizeByGroup": true,
-  "categoryOrder": ["Math", "*"],
+  "categoryOrder": ["MathUtils", "*"],
   "readme": "README.md"
 } 

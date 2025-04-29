@@ -10,11 +10,16 @@
     "predeploy": "npm run build && npm run docs",
     "deploy": "gh-pages -d docs"
   },
-  "keywords": ["math", "typescript", "utils"],
+  "keywords": [
+    "math",
+    "typescript",
+    "utils"
+  ],
   "author": "",
   "license": "ISC",
   "description": "Thư viện các tiện ích toán học đơn giản",
   "devDependencies": {
+    "@types/node": "^22.15.3",
     "gh-pages": "^6.3.0",
     "typedoc": "^0.28.3",
     "typescript": "^5.8.3"

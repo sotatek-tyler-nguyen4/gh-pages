@@ -11,9 +11,9 @@ npm install math-utils
 ## Sử dụng
 
 ```typescript
-import { Math } from "math-utils";
+import { MathUtils } from "math-utils";
 
-const math = new Math();
+const math = new MathUtils();
 
 // Các phép toán cơ bản
 const sum = math.add(5, 3); // 8
